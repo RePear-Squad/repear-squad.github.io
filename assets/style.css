@@ -1,1 +1,36 @@
+/** html selectors **/
 
+html {
+    text-align: center;
+}
+
+/** classes **/
+
+/** ids **/
+
+/** fonts **/
+
+/** fantasque sans mono **/
+@font-face {
+     font-family: ;
+     src: url();
+}
+/** fantasque sans mono bold **/
+@font-face {
+     font-family: ;
+     src: url();
+     font-weight: bold;
+}
+/** fantasque sans mono italic **/
+@font-face {
+     font-family: ;
+     src: url();
+     font-style: italic;
+}
+/** fantasque sans mono bold italic **/
+@font-face {
+     font-family: ;
+     src: url();
+     font-weight: bold;
+     font-style: italic;
+}
