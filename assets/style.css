@@ -1,36 +1,64 @@
 /** html selectors **/
 
 html {
-    text-align: center;
+  text-align: center;
+  font-family: fsm;
+  background-color: #0e0e0e;
+  color: #e1e1e1;
+}
+
+h3 {
+  background-color: #1d1d1d;
+  padding: 10px;
+  border-radius: 6px;
+  margin: auto;
+  font-size: 1.25em;
+  width: max-content;
 }
 
 /** classes **/
 
 /** ids **/
 
+#under-construction {
+  margin-top: 200px;
+}
+
+#under-construction-github-mark {
+  width: 35px;
+}
+
+#under-construction-github-mark-container {
+  margin-top: 14px;
+  background-color: #1d1d1d;
+  padding: 10px;
+  border-radius: 6px;
+  width: max-content;
+  display: inline-block;
+}
 /** fonts **/
 
 /** fantasque sans mono **/
 @font-face {
-     font-family: ;
-     src: url();
+  font-family: fsm;
+  src: url(../assets/fonts/fantasque-sans-mono/fsm-reg.otf);
 }
 /** fantasque sans mono bold **/
 @font-face {
-     font-family: ;
-     src: url();
-     font-weight: bold;
+  font-family: fsm;
+  src: url(../assets/fonts/fantasque-sans-mono/fsm-bold.otf);
+  font-weight: bold;
 }
 /** fantasque sans mono italic **/
 @font-face {
-     font-family: ;
-     src: url();
-     font-style: italic;
+  font-family: fsm;
+  src: url(../assets/fonts/fantasque-sans-mono/fsm-italic.otf);
+  font-style: italic;
 }
 /** fantasque sans mono bold italic **/
 @font-face {
-     font-family: ;
-     src: url();
-     font-weight: bold;
-     font-style: italic;
+  font-family: fsm;
+  src: url(../assets/fonts/fantasque-sans-mono/fsm-bolditalic.otf);
+  font-weight: bold;
+  font-style: italic;
 }
