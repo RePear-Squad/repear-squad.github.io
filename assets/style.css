@@ -25,13 +25,16 @@ h3 {
 }
 
 #under-construction-github-mark {
-  width: 35px;
+  width: 30px;
 }
 
 #under-construction-github-mark-container {
   margin-top: 14px;
   background-color: #1d1d1d;
-  padding: 10px;
+  padding-top: 7px;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-bottom: 5px;
   border-radius: 6px;
   width: max-content;
   display: inline-block;
