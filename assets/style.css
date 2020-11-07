@@ -87,6 +87,10 @@ a:active {
 
 /** ids **/
 
+#uncn-div {
+  text-align: center;
+}
+
 #under-construction {
   margin-top: 200px;
 }
@@ -97,7 +101,7 @@ a:active {
 
 #under-construction-github-mark-container {
   margin-top: 14px;
-  background-color: #1d1d1d;
+  background-color: #7d8aac;
   padding-top: 1.9vmin;
   padding-left: 1.9vmin;
   padding-right: 1.9vmin;
@@ -108,13 +112,13 @@ a:active {
 }
 
 #dev-button {
-  color: #0e0e0e;
+  color: #7d8aac;
   -webkit-transition: 0.1s;
   transition: 0.1s;
 }
 
 #dev-button:hover {
-  color: #e1e1e1;
+  color: #505c6d;
 }
 /** fonts **/
 
@@ -144,6 +148,7 @@ a:active {
 }
 
 /** Other **/
+
 ::selection {
   background-color: #939faf;
   color: white;
