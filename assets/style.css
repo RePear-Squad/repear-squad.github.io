@@ -1,22 +1,89 @@
 /** html selectors **/
 
 html {
-  text-align: center;
   font-family: fsm;
-  background-color: #0e0e0e;
-  color: #e1e1e1;
+  background-color: #daddef;
+  color: #7d8aac;
 }
 
-h3 {
-  background-color: #1d1d1d;
-  padding: 10px;
-  border-radius: 6px;
-  margin: auto;
-  font-size: 1.25em;
-  width: max-content;
+/** headers **/
+h1, h2, h3, h4 {
+  font-weight: bold;
+  font-size: 6vmin;
 }
 
+/** paragraphs **/
+p {
+  font-size: 3vmin;
+}
+
+
+/** hyperlink styling **/
+a:link {
+  color: #7d8aac;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+a:visited {
+}
+
+a:hover {
+  color: #505c6d;
+}
+
+a:active {
+  color: #505c6d;
+}
 /** classes **/
+
+/** navbar and logo**/
+.logo {
+  width: 40vmin;
+}
+
+.logo-container {
+  margin-left: 2.5vmin;
+  display: inline-block;
+}
+
+.navbar-items {
+  list-style-type: none;
+  line-height: 7.7vmin;
+  float: left;
+  margin-top: 4vmin;
+}
+
+.navbar-item {
+  color: #7d8aac;
+  text-decoration: none;
+  font-size: 4vmin;
+  border: 0.7vmin solid #454956;
+  padding: 3px;
+  border-radius: 5px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.navbar-item:hover {
+  color: #39425f;
+  font-weight: bolder;
+  margin-left: 10px;
+}
+
+.navbar {
+  float: left;
+  border-right: 0.98vmin solid #454956;
+  border-radius: 5px;
+  height: 100%;
+  padding: 1vmin;
+}
+
+/** content **/
+.content {
+  text-align: center;
+  margin-left: 10px;
+}
 
 /** ids **/
 
@@ -25,19 +92,29 @@ h3 {
 }
 
 #under-construction-github-mark {
-  width: 35px;
+  width: 8vmin;
 }
 
 #under-construction-github-mark-container {
   margin-top: 14px;
   background-color: #1d1d1d;
-  padding-top: 7px;
-  padding-left: 7px;
-  padding-right: 7px;
-  padding-bottom: 4.6px;
-  border-radius: 25px;
+  padding-top: 1.9vmin;
+  padding-left: 1.9vmin;
+  padding-right: 1.9vmin;
+  padding-bottom: 1vmin;
+  border-radius: 10vmin;
   width: max-content;
   display: inline-block;
+}
+
+#dev-button {
+  color: #0e0e0e;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+#dev-button:hover {
+  color: #e1e1e1;
 }
 /** fonts **/
 
@@ -64,4 +141,10 @@ h3 {
   src: url(../assets/fonts/fantasque-sans-mono/fsm-bolditalic.otf);
   font-weight: bold;
   font-style: italic;
+}
+
+/** Other **/
+::selection {
+  background-color: #939faf;
+  color: white;
 }
