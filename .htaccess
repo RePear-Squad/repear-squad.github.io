@@ -1,0 +1,12 @@
+# Guys, please don't screw with this. It's important.
+# -Liam
+
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteCond %{REQUEST_FILENAME}\.html -f 
+
+RewriteRule ^(.*)$ $1.html [NC,L]
+
+
