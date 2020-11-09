@@ -77,14 +77,19 @@ a:active {
   float: left;
   border-right: 0.98vmin solid #454956;
   border-radius: 5px;
-  height: 100%;
   padding: 1vmin;
+  height: 90vh;
 }
 
 /** content **/
 .content {
   text-align: center;
   margin-left: 10px;
+}
+
+/** shout-out to Duval Studios devs! **/
+.shout-out {
+  text-align: center;
 }
 
 /** ids **/
