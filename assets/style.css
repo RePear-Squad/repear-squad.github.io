@@ -90,8 +90,9 @@ a:active {
 /** shout-out to Duval Studios devs! **/
 .shout-out {
   text-align: center;
-  margin-top: 4vmin;
+  margin-top: 70vmin;
   font-size: 2.4vmin;
+  clear: both;
 }
 
 /** ids **/
